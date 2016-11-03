@@ -1,5 +1,5 @@
 <script type="text/javascript">
-  RED.nodes.registerType('wishful-pub', {
+  RED.nodes.registerType('uniflex-pub', {
     category: 'output',
     color: '#E9967A',
     defaults: {
@@ -21,12 +21,12 @@
     outputs: 0,
     icon: "zmq.png",
     label: function() {
-      return this.name ? (this.name + "(" + this.uri + ")") : "wishful-pub";
+      return this.name ? (this.name + "(" + this.uri + ")") : "uniflex-pub";
     }
   });
 </script>
 
-<script type="text/x-red" data-template-name="wishful-pub">
+<script type="text/x-red" data-template-name="uniflex-pub">
   <div class="form-row">
     <label for="node-input-name"><i class="icon-tag"></i> Name</label>
     <input type="text" id="node-input-name" placeholder="Name">
@@ -38,5 +38,5 @@
 </script>
 
 <script type="text/x-red" data-help-name="lower-case">
-  <p>Wishful publisher, that sends events to broker. It accepts serialized events as <code>payload</code></p>
+  <p>UniFlex publisher, that sends events to broker. It accepts serialized events as <code>payload</code></p>
 </script>

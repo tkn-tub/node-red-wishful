@@ -1,5 +1,5 @@
 <script type="text/javascript">
-  RED.nodes.registerType('wishful-sub', {
+  RED.nodes.registerType('uniflex-sub', {
     category: 'input',
     color: '#E9967A',
     defaults: {
@@ -24,12 +24,12 @@
     outputs: 1,
     icon: "zmq.png",
     label: function() {
-      return this.name ? (this.name + "(" + this.uri + ")") : "wishful-sub";
+      return this.name ? (this.name + "(" + this.uri + ")") : "uniflex-sub";
     }
   });
 </script>
 
-<script type="text/x-red" data-template-name="wishful-sub">
+<script type="text/x-red" data-template-name="uniflex-sub">
   <div class="form-row">
     <label for="node-input-name"><i class="icon-tag"></i> Name</label>
     <input type="text" id="node-input-name" placeholder="Name">
@@ -45,5 +45,5 @@
 </script>
 
 <script type="text/x-red" data-help-name="lower-case">
-  <p>Wishful subscriber. Receives events sent over broker</p>
+  <p>UniFlex subscriber. Receives events sent over broker</p>
 </script>

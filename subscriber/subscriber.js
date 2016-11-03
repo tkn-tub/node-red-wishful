@@ -41,5 +41,5 @@ module.exports = function(RED) {
       sock.close();
     });
   }
-  RED.nodes.registerType("wishful-sub", Subscriber);
+  RED.nodes.registerType("uniflex-sub", Subscriber);
 }

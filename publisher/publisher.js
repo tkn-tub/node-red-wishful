@@ -40,5 +40,5 @@ module.exports = function(RED) {
       sock.send(payload);
     });
   }
-  RED.nodes.registerType("wishful-pub", Publisher);
+  RED.nodes.registerType("uniflex-pub", Publisher);
 }
