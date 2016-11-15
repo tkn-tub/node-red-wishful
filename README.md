@@ -2,6 +2,9 @@
 
 A node RED module that connects node RED to [UniFlex control framework](https://github.com/uniflex).
 
+# Installation:
+To install UniFlex framework with all available modules, please go through all steps in [manifest](https://github.com/uniflex/manifests) repository.
+
 # Install node red framework:
 
     curl -sL https://deb.nodesource.com/setup_0.10 | sudo -E bash -
